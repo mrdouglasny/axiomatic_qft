@@ -10,8 +10,7 @@ open MeasureTheory NNReal ENNReal
 open TopologicalSpace Measure
 
 noncomputable section
-open scoped MeasureTheory        -- **inside** the section — not above it!
-
+open scoped MeasureTheory
 /-! ### Geometry -/
 def STDimension : ℕ := 4
 abbrev RSpaceTime := EuclideanSpace ℝ (Fin STDimension)
